@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul id="menu"></ul>
+    </nav>
+
+    <script>
+        
+        let items = ["خانه", "محصولات", "درباره ما", "تماس با ما", "فیلم های آموزشی", "جستجو"];
+
+        
+        let menu = document.getElementById("menu");
+
+       
+        menu.innerHTML += "<li><a href='#'>" + items[0] + "</a></li>";
+        menu.innerHTML += "<li><a href='#'>" + items[1] + "</a></li>";
+        menu.innerHTML += "<li><a href='#'>" + items[2] + "</a></li>";
+        menu.innerHTML += "<li><a href='#'>" + items[3] + "</a></li>";
+        menu.innerHTML += "<li><a href='#'>" + items[4] + "</a></li>";
+        menu.innerHTML += "<li><a href='#'>" + items[5] + "</a></li>";
+    </script>
+</body>
+</html>

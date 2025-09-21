@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav{
+    height: 8vh;
+    background-color: pink;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+nav li{
+    width: 16%;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+}
+
+nav  a:hover{
+    background-color: gray;
+    box-shadow: 8px 8px 20px red;
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
